@@ -1122,10 +1122,11 @@ color:#fff
 #call-to-action .title {
 	color: #fff;
 	font-family: 'Lato';
-	font-size: 6em;
+	font-size: 5em;
 	font-weight: 100;
 	line-height: 1;
 	margin-top: 56px;
+	padding-bottom: 90px;
 	text-transform: uppercase;
 	text-align: center;
 	height: 70px;
@@ -1143,7 +1144,7 @@ color:#fff
 	margin: 1em 0
 }
 #call-to-action .countdown {
-	margin: 60px 0
+	margin: 50px 0;
 }
 /*Newsletter subscribe start here*/
 #call-to-action .countdown .ClassyCountdown-call-to-action>div {

@@ -8,6 +8,13 @@
  *
  */
 /*Countdown start here*/
+
+.ClassyCountdown-call-to-action{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
 .ClassyCountdown-call-to-action>div {
 	display: inline-block;
 	position: relative;
@@ -54,7 +61,7 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.ClassyCountdown-call-to-action>div {
-		width: calc(50% - 60px);
+		width: calc(25% - 60px);
 	}
 	#call-to-action .countdown .ClassyCountdown-call-to-action > div::before {
 		top: 10px !important;
@@ -63,7 +70,7 @@
 @media (max-width: 530px) {
 	.ClassyCountdown-call-to-action>div {
 		display: inline-block;
-		width: 100%;
+		width: calc(50% - 40px);
 		margin: 20px 0;
 	}
 }
