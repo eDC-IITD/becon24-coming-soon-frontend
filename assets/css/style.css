@@ -929,6 +929,13 @@ section {
   padding: 80px 0;
 }
 
+.cta-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 #call-to-action .cta-title {
   color: #fff;
   font-size: 28px;
@@ -962,6 +969,61 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
+  background: #1dc8cd;
+  border: 2px solid #1dc8cd;
+}
+
+/* Call To Action Section2
+--------------------------------*/
+#call-to-action2 {
+  overflow: hidden;
+  height: 100vh;
+
+  background: linear-gradient(rgba(8, 28, 94, 0.65), rgba(0, 0, 0, 0.2)), url(../img/iitdbg.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.cta-title2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#call-to-action2 .cta-title2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action2 .cta-text2 {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #call-to-action2 .cta-btn-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#call-to-action2 .cta-btn2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#call-to-action2 .cta-btn2:hover {
   background: #1dc8cd;
   border: 2px solid #1dc8cd;
 }
@@ -1041,7 +1103,7 @@ section {
 --------------------------------*/
 #clients {
   padding: 30px 0;
-  background: #fff;
+  background: #ffffff;
   overflow: hidden;
 }
 
@@ -1055,6 +1117,15 @@ section {
 #clients img:hover {
   opacity: 1;
 }
+
+.sponsors-title {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  font-weight: 400;
+}
+
+
 
 /* Pricing Section
 --------------------------------*/
