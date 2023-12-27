@@ -443,6 +443,7 @@ h6 {
 .hero-text img{
   padding : 10px;
   max-width: 35vw;
+  transform: scale(0.5);
 
 }
 
@@ -469,6 +470,20 @@ h6 {
 .hero-layer-1-zoomer{
   transform: scale(3);
 }
+
+@media (max-width: 576px) {
+  .hero-layer-1-zoomer {
+    transform: scale(5);
+  }
+}
+
+/* @media (min-width: 768px) {
+  .hero-layer-1-zoomer {
+    transform: scale(3);
+  }
+} */
+
+
 
 .hero-layer-2{
   position: absolute;
@@ -744,6 +759,10 @@ section {
   font-size: 24px;
 }
 
+#about .content h2{
+  color: #179ca0;
+}
+
 #about .content h3 {
   color: white;
   font-weight: 300;
@@ -968,12 +987,14 @@ section {
   transition: background 0.5s;
   margin: 10px;
   border: 2px solid #fff; 
-  color: #fff;
+  color: #000000;
+  background-color: white;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
-  border: 2px solid #1dc8cd;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: white;
 }
 
 

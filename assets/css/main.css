@@ -443,6 +443,7 @@ mark {
 	text-align: center
 }
 
+
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 10px
@@ -450,7 +451,9 @@ ul, ol {
 .list-inline {
 	padding-left: 0;
 	list-style: none;
-	margin-left: -5px
+	margin-left: -5px;
+
+	
 }
 .list-inline>li {
 	display: inline-block;
