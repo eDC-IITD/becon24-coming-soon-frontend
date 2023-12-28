@@ -517,6 +517,56 @@ h6 {
   transform: scale(1.2);
 }
 
+.hero-layer-3{
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.hero-layer-3 .right{
+  display: flex;
+  justify-content: right;
+}
+
+.hero-layer-3 .cta-btn{
+  color: white;
+  background-color: #000;
+}
+
+@media (min-width: 769px) {
+  .hero-layer-3 .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.hero-layer-3 .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid #fff; 
+  color: #000000;
+  background-color: white;
+}
+
+.hero-layer-3 .cta-btn:hover {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: white;
+}
+
+
 /* .hero-video-contianer{
   height: 100%;
   width: 100%; */
@@ -761,6 +811,7 @@ section {
 
 #about .content h2{
   color: #179ca0;
+  font-weight: bold;
 }
 
 #about .content h3 {
